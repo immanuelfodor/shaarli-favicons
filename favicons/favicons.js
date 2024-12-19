@@ -11,6 +11,7 @@ jQuery(document).ready(function($){
 			return true;
 		}
 
+		$(oData).css("background-size", "1em 1em");
 		$(oData).css(
 			"background-image",
 			"url(\"https://www.google.com/s2/favicons?domain="+jQuery(oData).prop("hostname")+"\")"
